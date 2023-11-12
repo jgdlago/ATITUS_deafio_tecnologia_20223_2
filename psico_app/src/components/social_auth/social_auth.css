@@ -1,5 +1,6 @@
 .social-auth-container {
     width: 100%;
+    text-align: center;
 }
 
 .social-auth-button {
@@ -14,9 +15,18 @@
     border: none;
     font-size: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #00000066;
+    color: #00000099;
 }
 
 .social-auth-button h3 {
     margin-left: 10px;
+}
+
+.social-auth-container span {
+    font-size: 12px;
+}
+
+.social-auth-container span a {
+    text-decoration: none;
+    color: #A5CC8C;
 }

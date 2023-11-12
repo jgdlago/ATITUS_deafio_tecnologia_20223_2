@@ -7,11 +7,15 @@ function SocialAuth({ title }) {
   return (
     <div className="social-auth-container">
 
+        <hr />
+
       <button className='social-auth-button'>
         <FontAwesomeIcon icon={faGoogle} />
         <h3>{title}</h3>
       </button>
-      
+
+      <span>Não está registrado? <a href='#'>Crie sua conta</a></span>
+
     </div>
   );
 }
