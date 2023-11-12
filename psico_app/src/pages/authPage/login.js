@@ -19,7 +19,9 @@ function Login() {
       </div>
 
       <div className='login-form'>
-        
+        <form>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Número de telefone" required />
+        </form>
       </div>
     </div>
   );

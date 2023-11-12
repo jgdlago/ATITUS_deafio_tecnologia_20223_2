@@ -53,3 +53,17 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.login-form {
+    margin-top: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.login-form input {
+    border: none;
+    border-bottom: 1px solid #979797;
+    background-color: transparent;
+    width: 350px;
+    font-size: 12px;
+}
