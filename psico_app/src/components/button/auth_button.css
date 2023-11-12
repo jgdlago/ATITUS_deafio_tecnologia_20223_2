@@ -1,0 +1,16 @@
+.auth-button-container {
+    width: auto;
+}
+
+.auth-button {
+    display: block;
+    height: 70px;
+    width: 70%;
+    max-width: 350px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size: 12px;
+}
