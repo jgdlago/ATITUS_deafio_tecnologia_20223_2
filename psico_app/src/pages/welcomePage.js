@@ -8,7 +8,7 @@ function WelcomePage() {
       <h2>Bem-vindo!</h2>
 
       <span className="moody-calender">
-        MoodyCalendar
+        <h3>MoodyCalendar</h3>
       </span>
 
       <AuthButton title="Login paciente" />
