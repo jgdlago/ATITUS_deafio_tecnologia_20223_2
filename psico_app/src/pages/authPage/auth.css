@@ -67,3 +67,10 @@ body {
     width: 350px;
     font-size: 12px;
 }
+
+.login-form img {
+    width: 18px;
+    border-bottom: 1px solid #979797;
+    vertical-align: middle;
+
+}

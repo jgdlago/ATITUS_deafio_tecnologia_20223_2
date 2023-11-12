@@ -1,6 +1,7 @@
 import './auth.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import brasilIcon from './images/brasil.png';
 
 function Login() {
   return (
@@ -20,6 +21,7 @@ function Login() {
 
       <div className='login-form'>
         <form>
+          <img src={brasilIcon} alt="Brasil"/>
           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Número de telefone" required />
         </form>
       </div>
