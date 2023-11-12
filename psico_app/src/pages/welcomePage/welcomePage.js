@@ -11,7 +11,7 @@ function WelcomePage() {
         <h3>MoodyCalendar</h3>
       </span>
 
-      <AuthButton title="Login paciente" />
+      <AuthButton title="Login paciente"/>
 
       <AuthButton title="Login Psicólogo" />
 

@@ -2,6 +2,8 @@ import './auth.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import brasilIcon from './images/brasil.png';
+import SendButton from '../../components/button/send_button';
+import SocialAuth from '../../components/social_auth/social_auth';
 
 function Login() {
   return (
@@ -24,7 +26,12 @@ function Login() {
           <img src={brasilIcon} alt="Brasil"/>
           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Número de telefone" required />
         </form>
+        
+        <SendButton title='Enviar SMS'/>
       </div>
+
+      <SocialAuth title='Entrar com Google' />
+
     </div>
   );
 }
