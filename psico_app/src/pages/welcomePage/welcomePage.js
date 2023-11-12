@@ -1,5 +1,5 @@
 import './welcomePage.css';
-import AuthButton from '../components/button/auth_button';
+import AuthButton from '../../components/button/auth_button';
 
 function WelcomePage() {
   return (

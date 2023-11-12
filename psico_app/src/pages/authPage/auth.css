@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container-auth {
+    text-align: center;
+}
+
+.login-header {
+    margin-top: 10%;
+    text-align: justify;
+    margin: 10px;
+}
+
+.login-header p {
+    font-size: 10px;
+}
+
+.select-auth-moethod {
+    
+}
