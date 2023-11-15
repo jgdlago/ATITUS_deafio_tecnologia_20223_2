@@ -54,14 +54,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.login-form {
+.login-form-number {
     margin-top: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     width: 70%;
     text-align: center;
 }
 
-.login-form input {
+.login-form-number input {
     border: none;
     border-bottom: 1px solid #979797;
     background-color: transparent;
@@ -69,8 +69,24 @@ body {
     font-size: 12px;
 }
 
-.login-form img {
+.login-form-number img {
     width: 18px;
     border-bottom: 1px solid #979797;
     vertical-align: middle;
+}
+
+.login-form-email input {
+    border: none;
+    border-bottom: 1px solid #979797;
+    background-color: transparent;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 15%;
+}
+
+.login-form-email {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    text-align: center;
 }
