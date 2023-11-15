@@ -1,0 +1,15 @@
+.register-form input {
+    border: none;
+    border-bottom: 1px solid #979797;
+    background-color: transparent;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 15%;
+}
+
+.register-form {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    text-align: center;
+}
