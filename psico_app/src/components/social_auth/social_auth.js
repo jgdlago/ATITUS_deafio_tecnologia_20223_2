@@ -7,7 +7,12 @@ function SocialAuth({ title }) {
   return (
     <div className="social-auth-container">
 
-        <hr />
+      <div className="or-divider">
+        <hr className="left-line" />
+        <span>OU</span>
+        <hr className="right-line" />
+      </div>
+
 
       <button className='social-auth-button'>
         <FontAwesomeIcon icon={faGoogle} />
