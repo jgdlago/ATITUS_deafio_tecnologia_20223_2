@@ -1,0 +1,22 @@
+#input-group-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #F5E5FF;
+    border-radius: 5px;
+    padding: 3vw;
+    margin: 4vh 3vw 4vh 3vw;
+}
+
+#input-group-wrapper h3 {
+    font-size: medium;
+    margin: 0px 0px 3vh 0px;
+}
+
+ input {
+    width: 97%;
+    height: 40vh;
+    border: 3px solid #E0B0FF;
+    background-color: #F5E5FF;
+    
+}

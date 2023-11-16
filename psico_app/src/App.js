@@ -3,6 +3,7 @@ import Login from './pages/authPage/login';
 import Register from './pages/authPage/register';
 import WelcomePage from './pages/welcomePage/welcomePage';
 import UsuarioDashboard from './pages/usuarioDashboard/UsuarioDashboard';
+import InclusaoMoodUsuario from './pages/inclusaoMoodUsuario/InclusaoMoodUsuario';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       {/* <WelcomePage /> */}
       {/* <Login /> */}
       {/* <Register /> */}
-      <UsuarioDashboard />
+      {/* <UsuarioDashboard /> */}
+      <InclusaoMoodUsuario />
     </div>
   );
 }

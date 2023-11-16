@@ -1,0 +1,22 @@
+#inclusao-mood-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5E5FF;
+    border-radius: 5px;
+    padding: 3vw;
+    margin: 4vh 3vw 4vh 3vw;
+}
+
+#inclusao-mood-wrapper h3{
+    margin: 0px 0px 2vh 0px;
+    padding: 0px;
+    font-size: medium;
+}
+
+#humor-mood-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    padding-bottom: 3vh;
+}
