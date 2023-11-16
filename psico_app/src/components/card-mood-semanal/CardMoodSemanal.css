@@ -1,0 +1,35 @@
+#card-mood-semanal-wrapper {
+    background-color: #F5E5FF;
+    margin: 4vh 3vw 4vh 3vw;
+    border-radius: 5px;
+}
+
+#card-mood-semanal-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+}
+
+#card-mood-semanal-info-wrapper button {
+    border: none;
+    background-color: #F5E5FF;
+    font-weight: bold;
+    color: grey;
+    text-decoration: underline;
+}
+
+#card-mood-semanal-historico-wrapper {
+    display: flex;
+    padding: 0px 5vw 0px 5vw;
+}
+
+.card-mood-semanal-reacao-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.card-mood-semanal-reacao-wrapper img {
+    width: 28px;
+    height: 43px;
+}

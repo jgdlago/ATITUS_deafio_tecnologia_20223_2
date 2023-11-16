@@ -1,0 +1,30 @@
+header {
+    background-color: #CFFFB0;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 12vh;
+    height: fit-content;
+}
+
+header > div {
+    display: flex;
+    padding: 2vh;
+    justify-content: space-between;
+    width: 95vw;
+    margin-bottom: 2vh;
+}
+
+header > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+header h2 {
+    margin: 0px;
+}
+header img {
+    width: 30px;
+    height: 30px;
+}

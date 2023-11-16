@@ -1,0 +1,39 @@
+#card-notas-mood-wrapper {
+    display: flex;
+    height: 150px;
+    background-color: #F5E5FF;
+    border-radius: 5px;
+    margin: 4vh 3vw 4vh 3vw;
+}
+
+#card-notas-mood-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    
+}
+#card-notas-mood-img-wrapper img {
+    width: 24px;
+    height: 24px;
+}
+
+#card-notas-mood-wrapper span {
+    border: 1px solid #E0B0FF;
+    height: 70%;
+    align-self: center;
+}
+
+#card-notas-mood-texto-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 0px 0px 0px 4vw;
+    
+}
+
+#card-notas-mood-texto-wrapper p {
+    font-size: small;
+    margin: 0px;
+}
