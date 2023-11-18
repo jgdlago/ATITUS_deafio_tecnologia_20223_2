@@ -9,8 +9,8 @@ import InclusaoMoodUsuario from './pages/inclusaoMoodUsuario/InclusaoMoodUsuario
 function App() {
   return (
     <div className="App">
-      {/* <WelcomePage /> */}
-      <Login />
+      <WelcomePage />
+      {/* <Login /> */}
       {/* <Register /> */}
       {/* <UsuarioDashboard /> */}
       {/* <InclusaoMoodUsuario /> */}

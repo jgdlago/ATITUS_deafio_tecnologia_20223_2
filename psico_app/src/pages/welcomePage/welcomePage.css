@@ -3,6 +3,7 @@
     height: 100vh;
     text-align: center;
     background-color: #cfffb0;
+    display: flow-root;
 }
 
 .moody-calender {
