@@ -13,10 +13,9 @@
     margin: 0px 0px 3vh 0px;
 }
 
- input {
+#input-group-wrapper input {
     width: 97%;
     height: 40vh;
     border: 3px solid #E0B0FF;
     background-color: #F5E5FF;
-    
 }
