@@ -12,6 +12,8 @@ function WelcomePage({ onAuthAction }) {
 
       <AuthButton title="Login paciente" onClick={() => onAuthAction('login')} />
 
+      <AuthButton title="Login Psicólogo" onClick={() => onAuthAction('login')} />
+
       <AuthButton title="Cadastro" onClick={() => onAuthAction('register')} />
 
     </div>

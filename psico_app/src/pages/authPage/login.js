@@ -6,17 +6,25 @@ import brasilIcon from './images/brasil.png';
 import SendButton from '../../components/button/send_button';
 import SocialAuth from '../../components/social_auth/social_auth';
 
-function Login() {
+function Login({ onBack, onSuccess }) {
   const [authMethod, setAuthMethod] = useState('number');
 
   const handleMethodChange = (method) => {
     setAuthMethod(method);
   };
 
+  const handleBack = () => {
+    onBack();
+  };
+
+  const handleLogin = () => {
+    onSuccess();
+  };
+
   return (
     <div className="container-auth">
       <div className='login-header'>
-        <span>
+        <span onClick={handleBack}>
           <FontAwesomeIcon icon={faChevronLeft} />
           <b> Login</b>
         </span>
@@ -41,12 +49,10 @@ function Login() {
       {authMethod === 'email' && (
         <div className='login-form-email'>
           <form className='login-form'>
-
             <input type="email" id="email" name="email" placeholder="E-mail" required />
             <input type="password" id="password" name="password" placeholder="Senha" required />
- 
           </form>
-          <SendButton title='Login'/>
+          <SendButton title='Login' onClick={handleLogin} />
         </div>
       )}
 

@@ -4,7 +4,6 @@ import Login from './pages/authPage/login';
 import Register from './pages/authPage/register';
 import WelcomePage from './pages/welcomePage/welcomePage';
 import UsuarioDashboard from './pages/usuarioDashboard/UsuarioDashboard';
-import InclusaoMoodUsuario from './pages/inclusaoMoodUsuario/InclusaoMoodUsuario';
 
 function App() {
   const [authAction, setAuthAction] = useState(null);
@@ -13,10 +12,19 @@ function App() {
     setAuthAction(action);
   };
 
+  const handleAuthBack = () => {
+    setAuthAction(null);
+  };
+
+  const handleLoginSuccess = () => {
+    setAuthAction('dashboard');
+  };
+
   return (
     <div className="App">
-      {authAction === 'login' && <Login />}
-      {authAction === 'register' && <Register />}
+      {authAction === 'login' && <Login onBack={handleAuthBack} onSuccess={handleLoginSuccess} />}
+      {authAction === 'register' && <Register onBack={handleAuthBack} />}
+      {authAction === 'dashboard' && <UsuarioDashboard />}
       {authAction === null && (
         <WelcomePage onAuthAction={handleAuthAction} />
       )}
