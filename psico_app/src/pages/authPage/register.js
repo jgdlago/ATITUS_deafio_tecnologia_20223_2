@@ -5,9 +5,13 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import SendButton from '../../components/button/send_button';
 import SocialAuth from '../../components/social_auth/social_auth';
 
-function Register({ onBack }) {
+function Register({ onBack, onSuccess }) {
   const handleBack = () => {
     onBack();
+  };
+
+  const handleRegister = () => {
+    onSuccess();
   };
 
   return (
@@ -21,7 +25,6 @@ function Register({ onBack }) {
       </div>
 
       <div className='register-form-container'>
-
         <form className='register-form'>
           <input type="text" id="name" name="name" placeholder="Seu nome" required />
           <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Seu telefone" required />
@@ -31,7 +34,7 @@ function Register({ onBack }) {
           <input type="password" id="password" name="password" placeholder="Sua senha" required />
           <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirme sua senha" required />
         </form>
-        <SendButton title='Cadastrar'/>
+        <SendButton title='Cadastrar' onClick={handleRegister} />
       </div>
 
       <SocialAuth title='Entrar com Google' />

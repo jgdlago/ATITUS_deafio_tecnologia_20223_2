@@ -42,7 +42,7 @@ function Login({ onBack, onSuccess }) {
             <img src={brasilIcon} alt="Brasil"/>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Número de telefone" required />
           </form>
-          <SendButton title='Enviar SMS'/>
+          <SendButton title='Enviar SMS' onClick={handleLogin}/>
         </div>
       )}
 

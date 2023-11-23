@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       {authAction === 'login' && <Login onBack={handleAuthBack} onSuccess={handleLoginSuccess} />}
-      {authAction === 'register' && <Register onBack={handleAuthBack} />}
+      {authAction === 'register' && <Register onBack={handleAuthBack} onSuccess={handleLoginSuccess} />}
       {authAction === 'dashboard' && <UsuarioDashboard />}
       {authAction === null && (
         <WelcomePage onAuthAction={handleAuthAction} />
