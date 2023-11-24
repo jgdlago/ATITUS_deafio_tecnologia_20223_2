@@ -6,23 +6,23 @@ import laughImg from "../imgs/laugh.svg";
 import mehImg from "../imgs/meh.svg";
 
 let listaMood = [
-  {
-    img: angryImg,
-    dayOfWeek: getDiaDaSemanaPorExtenso(new Date().getDay()),
-  },
-  {
-    img: frownImg,
-    dayOfWeek: getDiaDaSemanaPorExtenso(new Date().getDay()),
-  },
+
 ];
 
-function CardMoodSemanal() {
+
+
+function CardMoodSemanal({onSuccess, dado}) {
+
+  const onHandleInclusaoMood = () => {
+    onSuccess();
+  }
+  montaMood(dado)
   return (
     <div id="card-mood-semanal-wrapper">
 
       <div id="card-mood-semanal-info-wrapper">
         <p>Mood Semanal</p>
-        <button>Adicionar Mood</button>
+        <button onClick={() => onHandleInclusaoMood('addMood')}>Adicionar Mood</button>
       </div>
 
       <div id="card-mood-semanal-historico-wrapper">
@@ -33,7 +33,6 @@ function CardMoodSemanal() {
           </div>
         ))}
       </div>
-      
     </div>
   );
 }

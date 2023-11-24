@@ -1,0 +1,57 @@
+#inclusao-mood-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5e5ff;
+  border-radius: 5px;
+  padding: 3vw;
+  margin: 4vh 3vw 4vh 3vw;
+}
+
+#inclusao-mood-wrapper h3 {
+  margin: 0px 0px 2vh 0px;
+  padding: 0px;
+  font-size: medium;
+}
+
+#humor-mood-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  padding-bottom: 3vh;
+}
+
+#input-group-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #f5e5ff;
+  border-radius: 5px;
+  padding: 3vw;
+  margin: 4vh 3vw 4vh 3vw;
+}
+
+#input-group-wrapper h3 {
+  font-size: medium;
+  margin: 0px 0px 3vh 0px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+  width: 97%;
+  height: 40vh;
+  border: 3px solid #e0b0ff;
+  background-color: #f5e5ff;
+}
+
+button {
+  background-color: white;
+  border-radius: 10px;
+  width: 351px;
+  height: 57px;
+  font-weight: bold;
+}
