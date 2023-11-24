@@ -32,7 +32,7 @@ function InclusaoMoodUsuario({onBack, childToParent}) {
   return (
     <>
       <Header></Header>
-      <section>
+      <section className="inclusao-wrapper">
         <form onSubmit={montaDadosForm}>
           <div id="inclusao-mood-wrapper">
             <h3>Como você está se sentindo hoje?</h3>
@@ -46,14 +46,14 @@ function InclusaoMoodUsuario({onBack, childToParent}) {
 
           <div id="input-group-wrapper">
             <h3>Escreva uma nota sobre:</h3>
-            <input
+            <input className="input"
               type="text"
               value={text}
               onChange={(event) => setText(event.target.value)}
             ></input>
           </div>
-          <button type="submit">Enviar</button>
-          <button onClick={onHandleInclusaoMood}>Voltar</button>
+          <button type="submit" className="button">Enviar</button>
+          <button onClick={onHandleInclusaoMood} className="button">Voltar</button>
         </form>
       </section>
     </>

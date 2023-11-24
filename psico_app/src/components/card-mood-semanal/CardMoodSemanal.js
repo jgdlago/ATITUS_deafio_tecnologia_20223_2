@@ -38,22 +38,22 @@ function CardMoodSemanal({onSuccess, dado}) {
 }
 
 function montaMood(valueMood) {
-  if (valueMood === "angry") {
+  if (valueMood === "angryImg") {
     listaMood.push({
       img: angryImg,
       dayOfWeek: getDiaDaSemanaPorExtenso(new Date().getDay()),
     });
-  } else if (valueMood === "frown") {
+  } else if (valueMood === "frownImg") {
     listaMood.push({
       img: frownImg,
       dayOfWeek: getDiaDaSemanaPorExtenso(new Date().getDay()),
     });
-  } else if (valueMood === "laugh") {
+  } else if (valueMood === "laughImg") {
     listaMood.push({
       img: laughImg,
       dayOfWeek: getDiaDaSemanaPorExtenso(new Date().getDay()),
     });
-  } else {
+  } else if (valueMood === "mehImg") {
     listaMood.push({
       img: mehImg,
       dayOfWeek: getDiaDaSemanaPorExtenso(new Date().getDay()),

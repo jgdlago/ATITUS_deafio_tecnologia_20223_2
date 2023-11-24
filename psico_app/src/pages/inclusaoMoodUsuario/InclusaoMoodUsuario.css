@@ -36,19 +36,19 @@
   margin: 0px 0px 3vh 0px;
 }
 
-section {
+.inclusao-wrapper {
     display: flex;
     justify-content: center;
 }
 
-input {
+.input {
   width: 97%;
   height: 40vh;
   border: 3px solid #e0b0ff;
   background-color: #f5e5ff;
 }
 
-button {
+.button {
   background-color: white;
   border-radius: 10px;
   width: 351px;
